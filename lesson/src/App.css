@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form{
+  padding-top: 30px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.App{
+  padding-left: 60px;
+}
+.todo{
+  padding-bottom: 20px;
+  padding-top: 30px;
+  transform: translateY(100px);
+  width: 50%;
+  min-height: 20vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+#plan_txt{
+  color: rgb(252, 252, 252);
+  font-family: sans-serif;
+  font-weight: 900;
+  text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.each_todo{
+  color: white;
+  font-family: sans-serif;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100px;
+  background-color: rgb(119, 119, 129);
+  border-radius: 9px;
+  box-shadow: 2px 5px 10px 1px black;
+}
+
+.buttons{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.buttons button{
+  width: 80px;
+  height: 30px;
+  box-shadow: 2px 1px 9px 1px white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgba(207, 207, 207, 0.459);
+  color: white;
+  font-family: sans-serif;
+}
